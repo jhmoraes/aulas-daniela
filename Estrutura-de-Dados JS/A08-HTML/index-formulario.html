@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <h1>Formulário</h1>
+    </header>
+
+    <section>
+
+        <form name="form_contato" action="#">
+
+            <label for="nome">Nome*</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+            <br>
+            <br>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco">
+            <br>
+            <br>
+            <label for="numcasa">Número:</label>
+            <input type="number" name="numcasa" id="numcasa">
+            <br>
+            <br>
+            <label for="datanasc">Data Nascimento:</label>
+            <input type="date" name="datanasc" id="datanasc">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="sexo"> Sexo:
+                <input type="radio" name="sexo" id="sexoF">FEM
+                <input type="radio" name="sexo" id="sexoM">MASC
+            </label>
+            <br>
+            <br>
+            <label for="setor">Setor</label>
+            <select name="setor">
+                <option name="setor" value=""></option>
+                <option name="setor" value="adm">Administração</option>
+                <option name="setor" value="fin">Financeiro</option>
+                <option name="setor" value="ti">TI</option>
+            </select>
+            <br>
+            <br>
+            <label for="atividade">Atividade:
+                <input type="checkbox" name="atividade" value="cami">Caminhada
+                <input type="checkbox" name="atividade" value="corrida">Corrida
+                <input type="checkbox" name="atividade" value="bici">Bicicleta
+                <input type="checkbox" name="atividade" value="nat">Natação
+            </label>
+            <br>
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <br>
+            <textarea placeholder="Escreva aqui sua mensagem" maxlength="11"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+
+        </form>
+
+
+    </section>
+
+</body>
+
+</html>
